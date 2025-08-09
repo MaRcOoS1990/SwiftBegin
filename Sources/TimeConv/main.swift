@@ -92,24 +92,6 @@ main()
 // Сложный уровень
 
 // 1. Найдите наиболее часто встречающийся элемент в массиве чисел.
-func findElement() {
-    let numbers = [1, 2, 2, 3, 3, 3, 4, 4]
-    var counts: [Int: Int] = [:]
-    for number in numbers {
-        counts[number, default: 0] += 1}
-    var mostFrequent: Int?
-    var maxCount = 0
-    for (number, count) in counts {
-        if count > maxCount {
-            mostFrequent = number
-            maxCount = count
-        }}
-    if let mostFrequent = mostFrequent {
-        print("Наиболее часто встречающийся элемент: \(mostFrequent)")
-    } else {
-        print("Нет элементов в массиве")
-        }}
-findElement()
 
 // 2. Создайте словарь, в котором ключами будут имена пользователей, а значениями - их списки покупок. Затем объедините списки покупок всех пользователей в один общий список.
 func user() {
