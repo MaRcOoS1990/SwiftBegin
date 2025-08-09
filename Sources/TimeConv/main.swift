@@ -126,5 +126,3 @@ func studentss() {
     print(scorers)
     }
 studentss()
-
-adasd
